@@ -1,3 +1,6 @@
+# US BIKESHARE Project
+# CREATED & submitted By Andre PORTE
+# January 10th 2022
 
 import time
 import pandas as pd
