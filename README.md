@@ -4,10 +4,10 @@
 Thursday March 10th 2022
 
 ### Project Title
-Replace the Project Title
+US BIKESHARE EXPLORATION
 
 ### Description
-Describe what your project is about and what it does
+The purpose is to give some insights on the bikeshare activities in 3 major US Cities
 
 ### Files used
 Include the files used
