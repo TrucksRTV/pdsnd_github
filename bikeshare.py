@@ -18,7 +18,7 @@ import numpy as np
 
 #Define global variables
 
-CITY_DATA = { 'chicago': 'chicago.csv',
+CITIES_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
               
@@ -39,7 +39,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = input('\nWhich city do you want to analyse ?\n')
-    while city.lower() not in CITY_DATA:
+    while city.lower() not in CITIES_DATA:
         city = input(str(city)+' is not available, please choose Chicago, New York City or Wahington : ')
         print(str(city))
 
@@ -78,7 +78,7 @@ def load_data(city, month, day):
         df - Pandas DataFrame containing city data filtered by month and day
     """
     #load the CSV file by searching the filename in the dictionnary
-    df = pd.read_csv(CITY_DATA[city.lower()])
+    df = pd.read_csv(CITIES_DATA[city.lower()])
 
     #convert string to date time format
     df['Start Time'] = pd.to_datetime(df['Start Time'])
