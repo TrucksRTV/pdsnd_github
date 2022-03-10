@@ -40,7 +40,7 @@ def get_filters():
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = input('\nWhich city do you want to analyse ?\n')
     while city.lower() not in CITIES_DATA:
-        city = input(str(city)+' is not available, please choose Chicago, New York City or Wahington : ')
+        city = city_error(city)
         print(str(city))
 
     print('OK, we will analyse ' + city.capitalize())
@@ -64,6 +64,10 @@ def get_filters():
 
     print('-'*40)
     return city, month, day
+
+def city_error(city):
+    city = input(str(city)+' is not available, please choose Chicago, New York City or Wahington : ')
+    return city
 
 
 def load_data(city, month, day):
