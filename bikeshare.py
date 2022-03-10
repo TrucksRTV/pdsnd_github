@@ -2,6 +2,16 @@
 # CREATED & submitted By Andre PORTE
 # January 10th 2022
 
+#Functions summary
+# get_filters()
+# load_data(city, month, day)
+# time_stats(df)
+# station_stats(df)
+# trip_duration_stats(df)
+# user_stats(df)
+# main()
+
+
 import time
 import pandas as pd
 import numpy as np
