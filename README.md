@@ -10,8 +10,16 @@ US BIKESHARE EXPLORATION
 The purpose is to give some insights on the bikeshare activities in 3 major US Cities
 
 ### Files used
-Include the files used
+####Python Script File
+bykeshare.py
+
+####Datas files
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This project has been forked from [Udacity’s GitHub Project repository](https://github.com/udacity/pdsnd_github)
+
+A good french [summary of the git command](https://rogerdudler.github.io/git-guide/index.fr.html)
 
